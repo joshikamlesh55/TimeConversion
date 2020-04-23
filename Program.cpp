@@ -2,9 +2,6 @@
 
 using namespace std;
 
-/*
- * Complete the timeConversion function below.
- */
 string timeConversion(string s) {
     for(int i=0;s[i]!='\0';i++)
     {
@@ -41,7 +38,7 @@ int main()
     
 
     string s;
-    cout<<"\n Enter Time as follow (HH:MM:SSXX) "; \\ HERE XX IS THE AM OR PM
+    cout<<"\n Enter Time as follow (HH:MM:SSXX) "; //HERE XX IS THE AM OR PM
     getline(cin, s);
     string result = timeConversion(s);
 
